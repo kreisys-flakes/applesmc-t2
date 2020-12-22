@@ -1,0 +1,75 @@
+{
+  "nodes": {
+    "mbpfan": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589897187,
+        "narHash": "sha256-aBbbsqSmvaE3uQLgtmyCg0i8OZ3f7/tbkRkAWGzQlLo=",
+        "owner": "linux-on-mac",
+        "repo": "mbpfan",
+        "rev": "52d897374d25fc7fc1d34425b93958aa583a0c64",
+        "type": "github"
+      },
+      "original": {
+        "owner": "linux-on-mac",
+        "repo": "mbpfan",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1608658816,
+        "narHash": "sha256-VRuXoj60GOB9GoaX2gjs0TN/R0ZYvg6sJqYIAC3GUoM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "81c729e2b84c285aa71f371ed9e22d91d5de68f7",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "mbpfan": "mbpfan",
+        "nixpkgs": "nixpkgs",
+        "src": "src",
+        "utils": "utils"
+      }
+    },
+    "src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1574029389,
+        "narHash": "sha256-ZUg0XYR/nmLyNlPMmh0Tbb6HmPIQ4nJ61PFWIf0HH84=",
+        "owner": "MCMrARM",
+        "repo": "mbp2018-etc",
+        "rev": "cf42289ad637d3073e2fd348af71ad43dd31b8b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "MCMrARM",
+        "repo": "mbp2018-etc",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1608409263,
+        "narHash": "sha256-L7gMksy7VR+GcySJhBFnjzO+GsB/BZje+1hvglbhyZk=",
+        "owner": "kreisys",
+        "repo": "flake-utils",
+        "rev": "b83c460130ee151d6b91b72dd6261fe53c8e4a79",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kreisys",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
